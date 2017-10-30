@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/antho/Desktop/TSA THING/ArcherProject/Tsa Archery Project/Assets/Scenes/TestScene.unity
+  isLoaded: 1
+  isActive: 1

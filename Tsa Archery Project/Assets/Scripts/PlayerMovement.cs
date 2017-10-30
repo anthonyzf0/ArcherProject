@@ -61,7 +61,8 @@ public class PlayerMovement : MonoBehaviour {
         jumps = maxJumps;
 
         //If you hit a block that changes rotationa and its not the same rotation
-        if (rotationData.ContainsKey(collision.gameObject.tag) && currentDerection!= collision.gameObject.tag)
+        if (rotationData.ContainsKey(collision.gameObject.tag) && 
+            currentDerection!= collision.gameObject.tag)
         {
             //Reset derections
             currentDerection = collision.gameObject.tag;
